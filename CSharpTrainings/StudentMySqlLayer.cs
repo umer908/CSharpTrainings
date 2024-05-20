@@ -3,10 +3,10 @@
 namespace CSharpTrainings
 {
 
-    public class StudentDataLayer
+    public class StudentMySqlLayer
     {
         string _con;
-        public StudentDataLayer() 
+        public StudentMySqlLayer() 
         {
             _con = "server=127.0.0.1;uid=root;database=db_trainings;pwd=umer908;AllowLoadLocalInfile=true";
         }
